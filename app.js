@@ -33,10 +33,7 @@
 
 
 // console.log(cardRow)
-const loadfunc = () => {
-  const loaderDiv = document.querySelector('.loading');
-  loaderDiv.style.display = 'none';
-}
+
 const searchingFunc = () => {
   let inputFieldOutput = document.querySelector('.form-field').value;
   console.log(inputFieldOutput)
